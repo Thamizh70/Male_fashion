@@ -1,0 +1,219 @@
+@charset "ISO-8859-1";
+li{
+  font-weight: 200;
+}
+.section3 ul li {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: larger;
+  font-family: Papyrus;
+}
+#navi{
+  position:sticky;
+  top: 0px;
+  z-index: 150;
+  background-color: white;
+  width: 100%;
+}
+.display{
+
+  justify-content: left;
+  display: inline !important;
+}
+.textuu{
+  display: inline !important;
+  justify-content: end;
+}
+.onnu{
+  display: flex;
+}
+.container1{
+  display: flex;
+}
+#card1{
+  transition: all 0.3s;
+}
+#card1:hover{
+transform: scale(1.07);
+
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+  transition: background-position 1s steps(28);
+  transition-duration: 0s;
+  
+
+}
+
+body {
+  background: #000000;
+}
+
+.placement {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+#onnu{
+    float: right;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+#cardicon{
+    
+
+    /* width: 30px; */
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+/* .cart_count{
+    position: absolute;
+    top: -8px;
+    right: 0px;
+    background-color: bisque;
+    padding: 2px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    z-index: 99;
+} */
+.cart_count{
+  position: absolute;
+  top: 22px;
+  
+  /* padding: 2px; */
+    padding-top: 0%;
+    margin-left: 29px;
+    font-size: 15px;
+    font-weight:500;
+    margin-top: 0%;
+    display: flex;
+    z-index: 99;
+    /* background-color: black; */
+    color: rgb(255, 255, 255);
+
+
+}
+button{
+  border-style: none;
+}
+#cart-icon{
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-top: 5px;
+
+}
+
+.cart{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 450px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgb(182, 159, 159, 0.1) ;
+    z-index: 100;
+
+}
+
+.cart-active{
+    right: 0;
+    transition: 0.5s;
+    background-color: rgb(237, 238, 245);
+
+}
+
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+
+
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+
+}
+.cart-img{
+    width: 95%;
+    height:95% ;
+    border: 1px solid rgba(55, 50, 50, 0.1);
+    padding: 5px;
+}
+.cart-remove{
+    cursor: pointer;
+}
+
+.price-box{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 0.5rem;
+
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.total-price{
+margin-left: 0.5rem;
+
+}
+
+.btn-buy{
+display: flex;
+padding: 12px 20px ;
+background-color: black;
+color: white;
+border: none;
+font-size: 1rem;
+font-weight: 500;
+
+}
+#close-btn{
+position: absolute;
+top: 1rem;
+right: 1rem;
+font-size: 2rem;
+cursor: pointer;
+
+}
+.cart-io{
+background-color: blue;
+}
+
+
+#card-animation2{
+  display: none;
+}
+
+#card-animation3{
+  display: none;
+
+}
